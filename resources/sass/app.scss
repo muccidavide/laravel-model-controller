@@ -1,2 +1,18 @@
 //
 @use 'bootstrap';
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #efefef;
+}
+
+.card_movie{
+    height: 100%;
+    box-shadow: 2px 2px 10px #dfdfdf;
+}
