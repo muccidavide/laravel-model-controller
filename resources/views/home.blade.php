@@ -1,21 +1,14 @@
-<!DOCTYPE html>
-<html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
+@extends('layouts.app')
 
-<head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+@section('content')
 
-    <title>Laravel</title>
 
-    <!-- Fonts -->
-    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@200;600&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="{{asset('css/app.css')}}">
+<div class="container p-5 ">
+    <div class="title text-center">
+    <h1>The Movie DB</h1>
 
-</head>
+    </div>
 
-<body>
-
-    <div class="container p-5 ">
         <div class="row justify-content-center"> 
         @forelse($movies as $movie)
 
@@ -39,7 +32,4 @@
         </div>
 
     </div>
-
-</body>
-
-</html>
+    @endsection

@@ -12188,3 +12188,23 @@ body {
   box-shadow: 2px 2px 10px #dfdfdf;
 }
 
+.footer_nav {
+  background-color: black;
+}
+
+.footer_nav ul {
+  display: flex;
+  justify-content: center;
+  list-style-type: none;
+  margin: 0;
+}
+
+.footer_nav ul li {
+  padding: 1rem 2rem;
+}
+
+.footer_nav ul li a {
+  text-decoration: none;
+  color: white;
+}
+
